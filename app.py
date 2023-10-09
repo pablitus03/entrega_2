@@ -1,6 +1,4 @@
 # Instala las bibliotecas necesarias
-!pip install googletrans==4.0.0-rc1
-!pip install gTTS
 
 # Importa las bibliotecas
 from googletrans import Translator
