@@ -1,4 +1,12 @@
 
+# Instala las bibliotecas necesarias
+!pip install googletrans==4.0.0-rc1
+!pip install gTTS
+
+# Importa las bibliotecas
+from googletrans import Translator
+from gtts import gTTS
+from IPython.display import Audio
 
 # Solicita la frase y el idioma de destino
 frase = input("Ingresa la frase que quieres traducir: ")
